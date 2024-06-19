@@ -1,4 +1,4 @@
-/********** Template CSS **********/
+/********** CSS **********/
 :root {
     --primary: #0B2E6F;
     --secondary: #E93C05;
@@ -36,7 +36,7 @@ h6,
 .page-header {
     padding-top: 12rem;
     padding-bottom: 6rem;
-    background: url(../img/header.jpg) top left no-repeat;
+    background: top left no-repeat;
     background-size: cover;
 }
 
@@ -50,7 +50,7 @@ h6,
 }
 
 #header-carousel {
-    margin-top:0px; /* Adjust the value as per your requirement */
+    margin-top:0px;
   }
 
 
