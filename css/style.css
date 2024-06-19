@@ -1,0 +1,71 @@
+/********** Template CSS **********/
+:root {
+    --primary: #0B2E6F;
+    --secondary: #E93C05;
+    --tertiary: #555555;
+    --light: #DFE4FD;
+    --dark: #011A41;
+}
+
+
+h1,
+.h1,
+h2,
+.h2,
+.fw-bold {
+    font-weight: 700 !important;
+}
+
+h3,
+.h3,
+h4,
+.h4,
+.fw-medium {
+    font-weight: 600 !important;
+}
+
+h5,
+.h5,
+h6,
+.h6,
+.fw-semi-bold {
+    font-weight: 500 !important;
+}
+
+
+.page-header {
+    padding-top: 12rem;
+    padding-bottom: 6rem;
+    background: url(../img/header.jpg) top left no-repeat;
+    background-size: cover;
+}
+
+.page-header .breadcrumb-item,
+.page-header .breadcrumb-item a {
+    font-weight: 500;
+}
+
+.page-header .breadcrumb-item+.breadcrumb-item::before {
+    color: var(--tertiary);
+}
+
+#header-carousel {
+    margin-top:0px; /* Adjust the value as per your requirement */
+  }
+
+
+
+@keyframes pulse-border {
+    0% {
+        transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateX(-50%) translateY(-50%) translateZ(0) scale(2);
+        opacity: 0;
+    }
+}
+
+
+
